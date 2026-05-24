@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class  DataTypeDemonstration {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Data Type Demonstration");
+        int a = 220;
+        float b = 5.555f;
+        long c = 9000;
+        short d = 126;
+        double date = 2020.0050;
+        char ch = 'u';
+        boolean condition = true;
+        
+        System.out.println("Integer type: " + a);
+        System.out.println("Short type: " + d);
+        System.out.println("Long type: " + c);
+        System.out.println("Float type: " + b);
+        System.out.println("Double type: " + date);
+        System.out.println("Character type: " + ch);
+        System.out.println("Boolean type: " + condition);
+
+        sc.close();
+    }
+}
