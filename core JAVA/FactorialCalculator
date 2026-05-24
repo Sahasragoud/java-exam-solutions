@@ -1,0 +1,36 @@
+import java.util.Scanner;
+class FactorialCalculator {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int res1 = add(70, 56);
+        double res2 = add(40.26, 89.36);
+        int res3 = add(2, 5, 6);
+        
+        System.out.println(res1);
+        System.out.println(res2);
+        System.out.println(res3);
+    }
+    
+    public static int add(int num1, int num2){
+        return num1 + num2;
+    }
+    
+    public static double add(double num1, double num2){
+        return num1 + num2;
+    }
+    
+    public static int add(int num1, int num2, int num3){
+        return num1 + num2 + num3;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
