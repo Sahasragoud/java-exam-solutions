@@ -1,0 +1,24 @@
+// Objective: Use the record keyword for immutable data structures (Java 16+). 
+// • Task: Create a record to represent a Person with name and age. 
+// • Instructions: 
+// o Define a record named Person. 
+// o Create instances and print them. 
+// o Use records in a List and filter based on age using Streams.
+
+import java.util.*;
+import java.util.stream.Stream;
+
+public class RecordsExample {
+    public static void main(String [] args){
+        List<Person> details = new ArrayList<>();
+        
+        Person ob1 = new Person("Sahasra", 20);
+        Person ob2 = new Person("Madu", 10);
+        details.add(ob1);
+        details.add(ob2);
+        
+details.stream().filter(p -> p.age() > 18).forEach(p -> System.out.println(p));
+    }
+}
+
+record Person(String name, int age){}
