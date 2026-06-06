@@ -1,0 +1,15 @@
+/* CSS Syntax and Comments
+Style for Main CTA Button 
+*/
+
+.cta-button{
+    background-color:#007BFF;
+    color:white;
+    padding:10px;
+}
+
+/* Footer Styles */
+
+.footer{
+    text-align:center;
+}
