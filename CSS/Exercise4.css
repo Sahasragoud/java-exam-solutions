@@ -1,0 +1,17 @@
+body{
+    background-color:#f4f4f4;
+    background-image:url("city.jpg");
+}
+
+h1{
+    color:#003366;
+}
+
+.eventCard{
+    background-color:rgba(0,0,255,0.2);
+}
+
+.header{
+    background:linear-gradient(to right,
+    blue,cyan);
+}
